@@ -3,7 +3,7 @@ package studentlistdemo;
 
 /**
  * A class that models Student Objects
- * @author dancye
+ * @author dancye, 2023
  */
 public class Student {
 

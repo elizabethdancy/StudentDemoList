@@ -9,6 +9,7 @@ public class Student {
 
     private String name;
     private String studentID;
+    private String address;
 
     public Student(String givenName) 
     {
@@ -33,5 +34,19 @@ public class Student {
     public void setStudentID(String studentID) 
     {
         this.studentID = studentID;
+    }
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
